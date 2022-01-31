@@ -30,6 +30,12 @@ black==21.6b0 \
 certifi==2020.6.20 \
     --hash=sha256:5930595817496dd21bb8dc35dad090f1c2cd0adfaf21204bf6732ca5d8ee34d3 \
     --hash=sha256:8fc0819f1f30ba15bdb34cceffb9ef04d99f420f68eb75d901e9560b8749fc41
+    # via
+    #   httpcore
+    #   httpx
+charset-normalizer==2.0.11 \
+    --hash=sha256:2842d8f5e82a1f6aa437380934d5e1cd4fcf2003b06fed6940769c164a480a45 \
+    --hash=sha256:98398a9d69ee80548c762ba991a4728bfc3836768ed226b3945908d1a688371c
     # via httpx
 click==7.1.2 \
     --hash=sha256:d2b5255c7c6349bc1bd1e59e08cd12acbbd63ce649f2588755783aa94dfb6b1a \
@@ -57,13 +63,13 @@ hpack==3.0.0 \
     --hash=sha256:0edd79eda27a53ba5be2dfabf3b15780928a0dff6eb0c60a3d6767720e970c89 \
     --hash=sha256:8eec9c1f4bfae3408a3f30500261f7e6a65912dc138526ea054f9ad98892e9d2
     # via h2
-httpcore==0.13.6 \
-    --hash=sha256:b0d16f0012ec88d8cc848f5a55f8a03158405f4bca02ee49bc4ca2c1fda49f3e \
-    --hash=sha256:db4c0dcb8323494d01b8c6d812d80091a31e520033e7b0120883d6f52da649ff
+httpcore==0.14.5 \
+    --hash=sha256:2621ee769d0236574df51b305c5f4c69ca8f0c7b215221ad247b1ee42a9a9de1 \
+    --hash=sha256:435ab519628a6e2393f67812dea3ca5c6ad23b457412cd119295d9f906d96a2b
     # via httpx
-httpx[http2]==0.18.2 \
-    --hash=sha256:979afafecb7d22a1d10340bafb403cf2cb75aff214426ff206521fc79d26408c \
-    --hash=sha256:9f99c15d33642d38bce8405df088c1c4cfd940284b4290cacbfb02e64f4877c6
+httpx[http2]==0.22.0 \
+    --hash=sha256:d8e778f76d9bbd46af49e7f062467e3157a5a3d2ae4876a4bbfd8a51ed9c9cb4 \
+    --hash=sha256:e35e83d1d2b9b2a609ef367cc4c1e66fd80b750348b20cc9e19d1952fc2ca3f6
     # via -r requirements.in
 hyperframe==5.2.0 \
     --hash=sha256:5187962cb16dcc078f23cb5a4b110098d546c3f41ff2d4038a9896893bbd0b40 \

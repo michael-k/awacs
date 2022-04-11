@@ -247,9 +247,9 @@ toml==0.10.2 \
     #   black
     #   mypy
     #   tox
-tox==3.23.1 \
-    --hash=sha256:307a81ddb82bd463971a273f33e9533a24ed22185f27db8ce3386bff27d324e3 \
-    --hash=sha256:b0b5818049a1c1997599d42012a637a33f24c62ab8187223fdd318fa8522637b
+tox==3.25.0 \
+    --hash=sha256:0805727eb4d6b049de304977dfc9ce315a1938e6619c3ab9f38682bb04662a5a \
+    --hash=sha256:37888f3092aa4e9f835fc8cc6dadbaaa0782651c41ef359e3a5743fcb0308160
     # via -r requirements.in
 typing-extensions==3.7.4.3 \
     --hash=sha256:7cb407020f00f7bfc3cb3e7881628838e69d8f3fcab2f64742a5e76b2f841918 \
